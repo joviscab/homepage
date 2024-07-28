@@ -222,3 +222,111 @@
   gap: 25px;
   padding-right: 430px;
 }
+
+/* Mobile version */
+@media only screen and (max-width: 480px) {
+  .about-me {
+    grid-template-rows: min-content;
+    grid-template-columns: min-content;
+    justify-content: center;
+  }
+
+  .about-img {
+    justify-self: center;
+    margin-top: 20px;
+  }
+
+  .about-image {
+    max-width: 360px;
+    max-height: auto;
+  }
+
+  .about-content {
+    background-color: aliceblue;
+    max-width: 412px;
+    justify-self: center;
+  }
+
+  .about-icons {
+    justify-content: center;
+  }
+
+  .my-work > h1 {
+    align-self: center;
+    padding-left: 0px;
+  }
+
+  .project-cards {
+    display: grid;
+    grid-template-rows: min-content;
+    grid-template-columns: min-content;
+  }
+
+  .contact-me {
+    grid-template-columns: min-content;
+    grid-template-rows: min-content;
+    max-width: 412px;
+    padding-bottom: 0px;
+  }
+
+  .contact-content {
+    text-align: center;
+  }
+
+  .contact-me h1 {
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .contact-info {
+    font-family: "Roboto", Times, serif;
+    font-size: 25px;
+    color: aliceblue;
+    padding-left: 0px;
+    padding-bottom: 10px;
+  }
+
+  .contact-addr {
+    font-family: "Roboto", Times, serif;
+    font-size: 25px;
+    color: aliceblue;
+    margin: 0;
+  }
+
+  .contact-image,
+  .contact-img {
+    /* max-width: 410px; */
+    max-width: 412px;
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+  }
+
+  .contact-phone {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    gap: 5px;
+    padding-bottom: 15px;
+  }
+
+  .contact-email {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding-left: 0px;
+    padding-bottom: 50px;
+  }
+
+  .contact-icons {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    display: flex;
+    gap: 25px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+  }
+}
+
+/* Tablet version */
+@media only screen and (min-device-width: 768px) {
+}
