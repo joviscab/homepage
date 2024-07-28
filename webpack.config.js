@@ -8,6 +8,7 @@ module.exports = {
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
+    clean: true, // Clean the output directory before emit.
   },
   module: {
     rules: [
@@ -21,6 +22,10 @@ module.exports = {
       {
         test: /\.css$/i,
         use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.html$/i,
+        loader: "html-loader",
       },
     ],
   },
