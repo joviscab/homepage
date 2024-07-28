@@ -14,7 +14,7 @@
 .about-me {
   grid-row: 1 / 1;
   display: grid;
-  grid-template-columns: 0.67fr 1fr;
+  grid-template-columns: 0.59fr 1fr;
   justify-items: center;
   align-items: center;
   background: url(../img/wave.png);
@@ -166,6 +166,7 @@
   padding-bottom: 80px;
   grid-auto-rows: min-content;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  justify-items: center;
 }
 
 .contact-me h1 {
@@ -219,5 +220,5 @@
   grid-row: 2 / 3;
   display: flex;
   gap: 25px;
-  padding-left: 50px;
+  padding-right: 430px;
 }
