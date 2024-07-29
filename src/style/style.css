@@ -263,7 +263,7 @@
   }
 
   .contact-me {
-    grid-template-columns: min-content;
+    grid-template-columns: inherit;
     grid-template-rows: min-content;
     padding-bottom: 0px;
   }
@@ -292,12 +292,12 @@
     margin: 0;
   }
 
-  .contact-image,
-  .contact-img {
-    /* max-width: 410px; */
-    max-width: 412px;
+  .contact-image {
     grid-column: 1 / 2;
     grid-row: 4 / 5;
+    max-width: 410px;
+    display: flex;
+    justify-self: center;
   }
 
   .contact-phone {
