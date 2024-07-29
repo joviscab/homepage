@@ -265,7 +265,7 @@
   .contact-me {
     grid-template-columns: min-content;
     grid-template-rows: min-content;
-    max-width: 412px;
+    max-width: 600px;
     padding-bottom: 0px;
   }
 
@@ -295,10 +295,13 @@
 
   .contact-image,
   .contact-img {
-    /* max-width: 410px; */
-    max-width: 412px;
+    max-width: 415px;
     grid-column: 1 / 2;
     grid-row: 4 / 5;
+  }
+
+  .contact-img {
+    padding-left: 8px;
   }
 
   .contact-phone {
