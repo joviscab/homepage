@@ -364,9 +364,6 @@
     padding-top: 90px;
   }
 
-  .about-content > p {
-  }
-
   .about-icons {
     justify-content: center;
     translate: 31% -1260%;
@@ -389,11 +386,10 @@
   }
 
   .contact-me {
-    grid-template-columns: min-content min-content;
+    grid-template-columns: 50% 50%;
     padding-top: 50px;
     padding-bottom: 80px;
     grid-auto-rows: min-content;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     justify-items: center;
   }
 
@@ -404,15 +400,11 @@
   }
 
   .contact-image {
-    max-width: 480px;
-    max-height: auto;
-  }
-
-  .contact-img {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
+    max-width: 420px;
+    max-height: auto;
     align-self: center;
-    padding-left: 120px;
   }
 
   .contact-icons {
@@ -421,6 +413,6 @@
     display: flex;
     gap: 25px;
     padding-top: 20px;
-    margin-right: 160px;
+    margin-right: 250px;
   }
 }
