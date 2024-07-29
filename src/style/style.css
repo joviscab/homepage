@@ -353,9 +353,6 @@
     justify-self: center;
     translate: 17% -30%;
     z-index: 1;
-    /* display: grid; */
-    /* grid-template-columns: 280px 280px; */
-    /* grid-template-rows: 60px 250px 250px; */
   }
 
   .about-content > h1 {
@@ -377,6 +374,7 @@
     align-self: center;
     padding-left: 0px;
     padding-bottom: 50px;
+    margin: 0;
   }
 
   .project-cards {
@@ -386,10 +384,8 @@
   }
 
   .contact-me {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: inherit inherit;
     padding-top: 50px;
-    padding-bottom: 80px;
-    grid-auto-rows: min-content;
     justify-items: center;
   }
 
@@ -402,7 +398,7 @@
   .contact-image {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    max-width: 420px;
+    max-width: 90%;
     max-height: auto;
     align-self: center;
   }
